@@ -1,4 +1,4 @@
-//let score = "10abc"
+/*//let score = "10abc"
 //let score = null
 //let score = undefined
 let score = false
@@ -36,5 +36,13 @@ console.log(typeof newnum)
 //33=> 33 dataype after converion will be String
 //null => null
 //true => true
-//undefined => undefined
+//undefined => undefined*/
 
+
+
+/******************Operation**********************/
+console.log("1"+1) //11
+console.log("1"+1+ 1) //111
+console.log(1+"1") //11
+console.log("1" + "1") //11
+console.log(1 + 1 + "1") //21
