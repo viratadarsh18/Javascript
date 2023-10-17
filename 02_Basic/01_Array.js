@@ -7,7 +7,6 @@ const Array = [1,2,3,4,5,6]
 // Array.pop()
 // Array.unshift(0)
 // Array.shift(5)
- a
 //  console.log(Array.includes(5))
 //  console.log(Array.indexOf(4))
  //const newArr = [9,8,7]
@@ -32,9 +31,15 @@ const dc = ["Superman", "Batman", "flash"]
 //console.log(marvel); // this will add dc array as an array in marvel aaray. because array can accept any types of data either it is array
 
 const all = marvel.concat(dc) //concat method
-console.log(all);
+// console.log(all);
 
 const allnew = [...marvel, ...dc] //spread method
-console.log(allnew)
+// console.log(allnew)
 
-sjdj
+const age = [1,2,3,4,[5,6,[7,8],9]]
+const new_age = age.flat(Infinity) //This will take all the elements of the subarray into a main array.
+console.log(new_age)
+
+//Suppose we are taking some values from other place and we want to check it whether it is an array or not, and we can also change it into array. 
+// console.log(Array.isArray("Raj"))
+console.log(Array.from("Raj"))
